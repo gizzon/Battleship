@@ -1,0 +1,99 @@
+Battleship Manual:
+
+Getting Started:
+
+	Start up this simulation by either selecting to connect to another player, or wait for a player
+	to connect to you. Upon either selection. If you choose to wait for a player and host the game,
+	the game will then prompt you to select your board, your desired username, your port, and your 
+	IP address. If you choose to connect to another player, the game will prompt you to select you 
+	board, your desired username, the other user's port and IP address. Your board and the other
+	user's board must be the same size. Specifications for the board can be found below under "Board
+	Specifications." Once the steps above have been completed, you can begin the game by pressing 
+	the "I'm Ready Let's Go!" button. Once both players have ready'd up, the actual game will begin.
+	When it is your turn to shoot, you will see a blank board representing your opponents board. Make
+	a shot on your opponent by pressing a grid on the board. If you hit a shit, you will see a fire
+	ball, if you miss a shot you will see a water splash. Be careful when it is your turn to shoot,
+	as you only have a limited amount of time that can be seen in the timer in the bottom right corner.
+	If do not make a shot in time, your opponent will automatically win. This game will end when one
+	of the users has successfully hit all of their opponents ships. At this time, the game will display
+	the name of the winning player and ask if you would like to play another game. A user earns a point
+	if they win the game, and the score is recorded in the bottom toolbar next to the users names. 
+	If you choose to play again you may change your board, and if both users do so, you can also change 
+	the size of the board you both have chosen (just remember they have to be the same size). A new board 
+	can be loaded by navigating to the "Options" button in the upper left corner and pressing "Load board". 
+	You can also load a new board by pressing "ctrl" + "l", or pressing the load board icon in the upper 
+	toolbar. You can easily exit this game by clicking the "Options" button and then pressing the "Quit" 
+	button. You can also leave the game by pressing "ctrl" + "q" or the exit icon in the upper toolbar.
+
+	
+Settings:
+	To reconfigure the default settings for this game, head on over to the settings window. You can do this 
+	by either pressing the "Settings" option in the "Options" drop down menu, pressing the settings icon 
+	in the toolbar, or by simply pressing "ctrl" + "w" to access the settings window quickly. Once you are there, 
+	you now have the option to change your username, dimensions of the board, the number of time you have to 
+	take a shot on your opponent, and the colors throughout your game. If you would like the colors you 
+	pressed to be used going forward, make sure you press the "Show" button before saving your preferences and 
+	exiting out of the window.
+
+	
+Board Specifications:
+	In the Battleship game, you have three board size options: 10x10, 9x9, and 8x8. The number of ships
+	and the type of ships for each board goes as follows:
+	
+	Types of boards:
+		•Carrier- 		Size of 4
+		•Battleship- 		Size of 3
+		•Cruiser/Submarine- 	Size of 2
+		•Destroyer- 		Size of 1
+
+	Number of ships per board size:
+	
+		10x10:
+			1 Carrier
+			2 Battleships
+			3 Cruisers/Submarine
+			4 Destroyers 
+
+		9x9:
+			3 Carrier
+			5 Battleships
+			0 Cruisers/Submarine
+			0 Destroyers 
+
+		8x8:
+			1 Carrier
+			3 Battleships
+			3 Cruisers/Submarine
+			0 Destroyers 
+
+	Ship Placement:
+		You must place your ships carefully. Ships are not allowed to place ships and have them hang over
+		board, as this will result in an error. Unlike normal Battleship, this version allows you to place
+		ships next to each other, allowing them touch to increase difficulty, however you may not place
+		ships on top of each other. Intersecting ships will also result in an hour. You must also meet the
+		Requirements above or else the program will send an error. You may enter your ships in a board 
+		by typing them in a text file and loading it into the game. The format for your text file is as
+		follows:
+			
+			Size, Size
+			Ship Size, Initial X coordinate, Initial Y coordinate, Orientation
+
+		An example of a text file is as follows:
+
+			10, 10
+			4, 2, 4, Horizontal
+			3, 1, 0, Vertical
+			3, 4, 8, Vertical
+			2, 0, 2, Horizontal
+			2, 9, 5, Horizontal
+			2, 8, 9, Vertical
+			1, 1, 9, Horizontal
+			1, 5, 2, Vertical
+			1, 6, 5, Vertical
+			1, 9, 0, Horizontal
+		
+		Examples of more boards can be found in the board folder.
+
+
+
+

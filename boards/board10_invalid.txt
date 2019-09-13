@@ -1,0 +1,11 @@
+10, 10
+4, 2, 4, Horizontal
+3, 1, 0, Vertical
+3, 4, 8, Vertical
+2, 0, 2, Horizontal
+2, 9, 5, Horizontal
+2, 8, 9, Vertical
+1, 1, 9, Horizontal
+1, 5, 2, Vertical
+1, 6, 5, Vertical
+1, 6, 5, Horizontal

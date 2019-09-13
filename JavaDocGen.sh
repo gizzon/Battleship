@@ -1,0 +1,3 @@
+#!/bin/bash
+
+javadoc -d docs src/hw03/gizzon/battleship/Battleship.java src/hw03/gizzon/battleship/BattleshipClient.java src/hw03/gizzon/battleship/BattleshipProtocol.java src/hw03/gizzon/battleship/BattleShipServer.java src/hw03/gizzon/battleship/BattleshipStates.java src/hw03/gizzon/battleship/BoardInfo.java src/hw03/gizzon/battleship/BoardParser.java src/hw03/gizzon/battleship/CommandListener.java src/hw03/gizzon/battleship/Connectable.java src/hw03/gizzon/battleship/ExtFileSelector.java src/hw03/gizzon/battleship/GameSim.java src/hw03/gizzon/battleship/Ship.java

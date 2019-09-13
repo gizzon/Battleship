@@ -1,0 +1,133 @@
+Test Run: Running two users on one computer with valid boards
+
+	Player 1: Launches the game
+		  Selects "Wait for player"
+		  Selects "board8_1.txt" in boards folder
+		  Enters the name "Player 1"
+		  Enters "8189" for port
+		  Enters "127.0.0.1" for IP address
+
+	Player 2: Launches the game
+		  Selects "Connect"
+		  Selects "board8_2.txt" in boards folder
+		  Enters the name "Player 2"
+		  Enters "8189" for port
+		  Enters "127.0.0.1" for IP address
+	
+	Player 1: Presses "I'm Ready Lets Go!"
+
+	Player 2" Presses "I'm Ready Lets Go!"	
+
+	Player 1: Makes shot at 0,0.. hit
+
+	Player 2: Makes shot at 0,7.. miss
+
+
+	Player 1: Makes shot at 0,1.. hit
+
+	Player 2: Makes shot at 7,2.. hit
+
+
+	Player 1: Makes shot at 1,7.. hit
+
+	Player 2: Makes shot at 2,0.. miss
+
+
+	Player 1: Makes shot at 1,6.. hit
+
+	Player 2: Makes shot at 0,0.. hit
+
+
+	Player 1: Makes shot at 1,5.. hit
+
+	Player 2: Makes shot at 7,7.. miss
+
+
+	Player 1: Makes shot at 1,3.. hit
+
+	Player 2: Makes shot at 7,0.. miss
+	
+
+	Player 1: Makes shot at 2,3.. hit
+
+	Player 2: Makes shot at 7,1.. miss
+
+
+	Player 1: Makes shot at 3,3.. hit
+
+	Player 2: Makes shot at 7,3.. hit
+
+
+	Player 1: Makes shot at 4,3.. hit
+
+	Player 2: Makes shot at 7,4.. miss
+
+
+	Player 1: Makes shot at 3,1.. hit
+
+	Player 2: Makes shot at 0,1.. hit
+
+
+	Player 1: Makes shot at 4,1.. hit
+
+	Player 2: Makes shot at 0,2.. hit
+
+
+	Player 1: Makes shot at 0,1.. hit
+
+	Player 2: Makes shot at 0,7.. miss
+
+
+	Player 1: Makes shot at 4,5.. hit
+
+	Player 2: Makes shot at 3,1.. hit
+
+
+	Player 1: Makes shot at 5,5.. hit
+
+	Player 2: Makes shot at 4,1.. hit
+
+
+	Player 1: Makes shot at 6,6.. hit
+
+	Player 2: Makes shot at 5,1.. miss
+
+
+	Player 1: Makes shot at 0,1.. hit
+
+	Player 2: Makes shot at 0,6.. miss
+
+
+	Player 1: Makes shot at 4,7.. hit
+
+	Player 2: Makes shot at 6,1.. miss
+
+
+	Player 1: Makes shot at 5,7.. hit
+
+	Player 2: Makes shot at 1,7.. hit
+
+
+	Player 1: Makes shot at 7,0.. hit
+
+	Player 2: Makes shot at 0,5.. miss
+
+
+	Player 1: Makes shot at 7,1.. hit
+
+	Player 2: Makes shot at 0,4.. miss
+
+
+	Player 1: Makes shot at 0,1.. hit
+
+	
+	Pop up appears on both screens: Player 1 won
+
+	Pop up appears on both screens: "Would you like to player another game?"
+
+
+	Player 1: Presses "no." Game exits
+
+	Player 2: Presses "no." Game exits
+
+			
